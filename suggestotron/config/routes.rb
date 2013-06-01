@@ -1,4 +1,5 @@
 Suggestotron::Application.routes.draw do
+  root to: "topics#index"
   resources :votes
 
 
